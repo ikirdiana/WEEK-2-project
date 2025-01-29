@@ -2,37 +2,82 @@
 <html>
    <head>
      <title> Our Team</title>
+     <style>
+        .main-heading{
+            text-align: center;
+        }
+        .main-heading p{
+            color: gray;
+            font-weight:400;
+        }
+        .member-container{
+           text-align: center;
+           border: .5px solid gray;
+           border-radius: 20px;
+           margin:10px;
+        }
+        .member-container img{
+          border-top-left-radius:  20px;
+          border-top-right-radius: 20px;
+        }
+        .member-container h3{
+            font-weight: 400;
+        }
+        .member-title{
+            color:gray;
+            font-size: 14px;
+        }
+        .borderless-buttons{
+            border:none;
+            padding: 8px 16px;
+            border-radius: 7px;
+            margin: 5px;
+        }
+        .about-button{
+            background: #1244B8;
+            color: white;
+        }
+        .contact-button{
+            background: white;
+            color: gray;
+            border:5px solid gray;
+        }
+        .Heading{
+            text-align: center;
+
+        }
+     </style>
    </head> 
  <body>
 <section>
-    <div>
+    <div class="Heading">
        <h1>MEET OUR TEAM</h1>
-        <p>Meet our team of professionals ready to serve you.</p>
+        <p style="color:grey; font-weight: bold;">Meet our team of professionals ready to serve you.</p>
+        <div>
+            <button title="Go to about us page" style="background-color: #173a8a; color: aliceblue;" >About Us</button>
+          <button title="Feel free to reach out" >Contact Us</button>
+        </div><br><br>
     </div>
-    <div>
-        <button>About Us</button>
-      <button>Contact Us</button>
-    </div><br><br>
-<div>
-    <div>
+<div class="main-container">
+    <div class="member-container">
         <img src="C:\Users\HP\Documents\TECH TONIC AFRICA\WEEK 2/man.jpg " height="150" width="150" alt="man">
         <p>Dog Trainer</p>
         <h3>Ronzo</h3>
         <p>&spades;</p>
     </div>
-    <div>
+    <div class="member-container">
         <img src="C:\Users\HP\Documents\TECH TONIC AFRICA\WEEK 2/woman2.jpg " height="150" width="150" alt="woman">
         <p>Medical Assistant</p>
         <h3>Prisca</h3>
         <p>&hearts;</p>
     </div>
-    <div>
+    <div class="member-container">
             <img src="C:\Users\HP\Documents\TECH TONIC AFRICA\WEEK 2/man2.jpg " height="150" width="150" alt="man">
             <p>President of sales</p>
             <h3>Peter</h3>
             <p>&clubs;</p>
         </div>
-        <div>
+        <div class="member-container">
             <img src="C:\Users\HP\Documents\TECH TONIC AFRICA\WEEK 2/woman.jpg " height="150" width="150" alt="man">
             <p>Nursing Assistant</p>
             <h3>Carla</h3>
